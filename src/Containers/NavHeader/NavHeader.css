@@ -1,0 +1,19 @@
+.additionalInfo{
+    align-self: center;
+}
+
+.additionalInfo img {
+  width: 1em;
+  height: 1em;
+}
+
+.additionalInfo span {
+  color: white;
+  margin-right: 1em;
+}
+
+@media (max-width: 900px){
+    .additionalInfo{
+        display: none;
+    }
+}

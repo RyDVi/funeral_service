@@ -1,0 +1,11 @@
+#mainHeader {
+  background-image: url("/main_header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.we_help{
+    font-family: AmericaXIX;
+}
