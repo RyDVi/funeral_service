@@ -1,5 +1,7 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
 @import "./bootstrap_changes.css";
+@import "./font_awesome_changes.css";
 
 @font-face {
   font-family: LatoRegular; /* Гарнитура шрифта */
@@ -45,6 +47,7 @@ h1 {
   color: white;
   font-family: AmericaXIX;
   font-size: 64px;
+  word-wrap: break-word;
 }
 
 h2 {
@@ -56,4 +59,10 @@ h2 {
 h3 {
   color: white;
   font-family: LatoRegular;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 50px;
+  }
 }

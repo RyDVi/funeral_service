@@ -3,8 +3,11 @@ import "./NavHeader.css"
 
 export default function NavHeader() {
   return (
-    <nav id="main_navbar" className="nav nav-pills navbar-default fixed-top justify-content-between">
-      <div className="nav nav-pills">
+    <nav
+      id="main_navbar"
+      className="nav nav-pills navbar-default fixed-top justify-content-between"
+    >
+      <div id="nav-links" className="nav nav-pills">
         <a className="nav-link" href="#mainHeader">
           Главная
         </a>
@@ -22,11 +25,11 @@ export default function NavHeader() {
         </a>
       </div>
       <span className="additionalInfo">
-        <img src="icons/телефон.png" alt=""/>
+        <img src="icons/телефон.png" alt="" />
         <span>8 (952) 867-92-82</span>
-        <img src="icons/письмо.png" alt=""/>
+        <img src="icons/письмо.png" alt="" />
         <span>katk78@yandex.ru</span>
-        <img src="icons/часы.png" alt=""/>
+        <img src="icons/часы.png" alt="" />
         <span>Круглосуточно</span>
       </span>
     </nav>

@@ -7,8 +7,6 @@ import Contacts from "../Contacts/Contacts"
 import Footer from "../Footer/Footer"
 import NavHeader from "../NavHeader/NavHeader"
 import MainHeader from "../MainHeader/MainHeader"
-import "jquery/dist/jquery.min.js"
-import "bootstrap/dist/js/bootstrap.min.js"
 
 export default function App() {
   return (

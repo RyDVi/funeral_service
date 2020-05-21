@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './Containers/App/App';
 import * as serviceWorker from './serviceWorker';
+import "jquery/dist/jquery.min.js"
+import "bootstrap/dist/js/bootstrap.min.js"
+import "popper.js/dist/popper.min.js"
 
 ReactDOM.render(
   <React.StrictMode>
