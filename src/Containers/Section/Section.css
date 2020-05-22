@@ -14,6 +14,6 @@
 
 @media (max-width: 600px) {
   .header-line {
-    width: 30vw;
+    width: 100%;
   }
 }

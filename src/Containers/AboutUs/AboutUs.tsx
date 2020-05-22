@@ -10,8 +10,8 @@ export default function AboutUs() {
       isWhiteBlock={true}
       children={
         <div>
-          <div className="container text-left">
-            <div className="row">
+          <div className="container-fluid  text-left">
+            <div className="row justify-content-center">
               <div className="col-sm">
                 <p>
                   Смерть близкого человека, скорбный момент, и это, несомненно,
