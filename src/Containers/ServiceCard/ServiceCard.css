@@ -1,0 +1,18 @@
+.service-card {
+  color: white;
+  background-color: #00000000;
+  border: 0;
+  width: 10em;
+  word-wrap: normal;
+  align-items: center;
+}
+
+.service-card-img {
+  /* inline-size: fit-content; */
+  width: 7em;
+}
+
+.service-card-img img {
+  height: 5em;
+  width: 5em;
+}

@@ -1,0 +1,19 @@
+.header-line {
+  border: none;
+  height: 1px;
+  margin-right: 1em;
+  margin-left: 1em;
+  background-color: #ad957b;
+  color: #ad957b;
+  width: 10em;
+}
+
+.white-block {
+    background-color: #d8d8d8;
+}
+
+@media (max-width: 600px) {
+  .header-line {
+    width: 30vw;
+  }
+}
