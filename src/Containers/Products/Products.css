@@ -1,0 +1,17 @@
+.nav-panel {
+  background-color: #00000000;
+  justify-content: center;
+}
+
+.nav-link-button {
+  color: black;
+}
+
+.nav-link.active.nav-link-button {
+  background-color: #ad957b;
+  color: black;
+}
+
+.products-grid {
+  height: 70vh;
+}

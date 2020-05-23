@@ -1,0 +1,20 @@
+.product-card {
+  color: black;
+  background-color: #00000000;
+  border: 2px;
+  border-color: #ad957b;
+  border-style: solid;
+  width: 10em;
+  word-wrap: normal;
+  align-items: center;
+}
+
+.product-img{
+  height: 10em;
+}
+
+.product-card-content {
+  background-color: #ad957b;
+  width: 10em;
+  height: 7em;
+}

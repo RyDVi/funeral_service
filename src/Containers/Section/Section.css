@@ -9,7 +9,15 @@
 }
 
 .white-block {
-    background-color: #d8d8d8;
+  background-color: #d8d8d8;
+}
+
+.content-white {
+  color: black;
+}
+
+.content-black {
+  color: white;
 }
 
 @media (max-width: 600px) {
