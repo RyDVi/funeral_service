@@ -43,7 +43,7 @@ export default function Products() {
                 className="nav-link active nav-link-button"
                 id="pills-home-tab"
                 data-toggle="pill"
-                href="#pills-home"
+                href="#products-home"
                 role="tab"
                 aria-controls="pills-home"
                 aria-selected="true"
@@ -56,7 +56,7 @@ export default function Products() {
                 className="nav-link  nav-link-button"
                 id="pills-profile-tab"
                 data-toggle="pill"
-                href="#pills-profile"
+                href="#products-profile"
                 role="tab"
                 aria-controls="pills-profile"
                 aria-selected="false"
@@ -69,7 +69,7 @@ export default function Products() {
                 className="nav-link  nav-link-button"
                 id="pills-contact-tab"
                 data-toggle="pill"
-                href="#pills-contact"
+                href="#products-contact"
                 role="tab"
                 aria-controls="pills-contact"
                 aria-selected="false"
@@ -82,7 +82,7 @@ export default function Products() {
                 className="nav-link  nav-link-button"
                 id="pills-ritualAccessories-tab"
                 data-toggle="pill"
-                href="#pills-ritualAccessories"
+                href="#products-ritualAccessories"
                 role="tab"
                 aria-controls="pills-ritualAccessories"
                 aria-selected="false"
@@ -94,7 +94,7 @@ export default function Products() {
           <div className="tab-content" id="pills-tabContent">
             <div
               className="tab-pane fade show active"
-              id="pills-home"
+              id="products-home"
               role="tabpanel"
               aria-labelledby="pills-home-tab"
             >
@@ -115,7 +115,7 @@ export default function Products() {
             </div>
             <div
               className="tab-pane fade"
-              id="pills-profile"
+              id="products-profile"
               role="tabpanel"
               aria-labelledby="pills-profile-tab"
             >
@@ -136,7 +136,7 @@ export default function Products() {
             </div>
             <div
               className="tab-pane fade"
-              id="pills-contact"
+              id="products-contact"
               role="tabpanel"
               aria-labelledby="pills-contact-tab"
             >
@@ -157,7 +157,7 @@ export default function Products() {
             </div>
             <div
               className="tab-pane fade"
-              id="pills-ritualAccessories"
+              id="products-ritualAccessories"
               role="tabpanel"
               aria-labelledby="pills-contact-tab"
             >
