@@ -10,7 +10,7 @@ export default function Section(props: {
   return (
     <section
       id={props.id.toString()}
-      className={`container ${props.isWhiteBlock ? "white-block" : ""}`}
+      className={`container ${props.isWhiteBlock ? "white-block" : ""} section-custom`}
     >
       <div className="d-flex justify-content-center">
         <hr className="header-line" />

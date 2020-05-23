@@ -1,3 +1,8 @@
+.section-custom {
+  height: 100vh;
+  padding-top: 70px;
+}
+
 .header-line {
   border: none;
   height: 1px;
@@ -23,5 +28,9 @@
 @media (max-width: 600px) {
   .header-line {
     width: 100%;
+  }
+
+  .section-custom {
+    height: auto;
   }
 }
