@@ -1,5 +1,5 @@
-.additionalInfo{
-    align-self: center;
+.additionalInfo {
+  align-self: center;
 }
 
 .additionalInfo img {
@@ -12,13 +12,14 @@
   margin-right: 1em;
 }
 
-@media (max-width: 950px){
-    .additionalInfo{
-        display: none;
-    }
+@media (max-width: 950px) {
+  .additionalInfo {
+    display: none;
+  }
 }
 
-/* Необходимо скрывать панель навигации и отобразить кнопку для открытия списка навигации */
-@media(max-width:450px){
-
+@media (max-width: 576px) {
+  .nav-menu {
+    font-size: small;
+  }
 }

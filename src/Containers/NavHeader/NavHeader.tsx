@@ -8,19 +8,19 @@ export default function NavHeader() {
       className="nav nav-pills navbar-default fixed-top justify-content-between"
     >
       <div id="nav-links" className="nav nav-pills">
-        <a className="nav-link" href="#mainHeader">
+        <a className="nav-link nav-menu" href="#mainHeader">
           Главная
         </a>
-        <a className="nav-link" href="#aboutUs">
+        <a className="nav-link nav-menu" href="#aboutUs">
           О нас
         </a>
-        <a className="nav-link" href="#ourServices">
+        <a className="nav-link nav-menu" href="#ourServices">
           Услуги
         </a>
-        <a className="nav-link" href="#products">
+        <a className="nav-link nav-menu" href="#products">
           Товары
         </a>
-        <a className="nav-link" href="#contacts">
+        <a className="nav-link nav-menu" href="#contacts">
           Контакты
         </a>
       </div>
