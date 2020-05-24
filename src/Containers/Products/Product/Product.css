@@ -4,13 +4,20 @@
   border: 2px;
   border-color: #ad957b;
   border-style: solid;
-  width: 10em;
+  /* width: 10em; */
+  height: 17em;
   word-wrap: normal;
   align-items: center;
 }
 
-.product-img{
+.product-img-content {
   height: 10em;
+  width: 10em;
+}
+
+.product-img {
+  max-width: 10em;
+  max-height: 10em;
 }
 
 .product-card-content {
