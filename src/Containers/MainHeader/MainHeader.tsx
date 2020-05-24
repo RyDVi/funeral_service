@@ -6,7 +6,7 @@ export default function MainHeader() {
     <header id="mainHeader">
       <div className="container">
         <div className="row">
-          <div className="col-md-5">
+          <div className="col-sm-12 col-md-8 col-lg-6 col-xl-6">
             <h1>Милосердие</h1>
             <h2>Похоронная служба</h2>
             <h2>
@@ -14,7 +14,7 @@ export default function MainHeader() {
               и близких в последний путь достойно
             </h2>
           </div>
-          <div className="col-md-7">
+          <div className="col-md-4 col-lg-6 col-xl-6">
 
           </div>
           {/* <div className="arrow col align-self-center d-flex justify-content-end flex-column"> */}

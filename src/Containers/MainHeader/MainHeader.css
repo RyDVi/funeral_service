@@ -24,3 +24,22 @@
 .we_help {
   font-family: AmericaXIX;
 }
+
+@media screen and (max-width: 992px) and (orientation: landscape) {
+  #mainHeader {
+    height: 100vw;
+  }
+  #mainHeader::before {
+    height: 100vw;
+  }
+  #mainHeader .arrow {
+    height: 20vh;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+  #mainHeader .arrow {
+    height: 20vh;
+  }
+}
