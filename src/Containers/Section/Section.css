@@ -24,8 +24,18 @@
 .content-black {
   color: white;
 }
-
+/* 
 @media (max-width: 600px) {
+  .header-line {
+    width: 100%;
+  }
+
+  .section-custom {
+    height: auto;
+  }
+} */
+
+@media screen and (max-width: 992px){
   .header-line {
     width: 100%;
   }
